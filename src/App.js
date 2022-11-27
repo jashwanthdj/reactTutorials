@@ -1,23 +1,63 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Greet  from './components/Greet';
+import Destructure from './components/Destructuring';
+import Welcome from './components/Welcome';
+import Message from './components/Message';
+import Counter from './components/Counter';
+import Functionclick from './components/Functionclick';
+import ClassClick from './components/ClassClick';
+import Eventbind from './components/Eventbind.js';
+import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
+import StyleSheet from './components/StyleSheet';
+import FormHandling from './components/FormHandling'
+import LifeCycle from './components/LifeCycle'
+import Fragment from './components/Fragment';
+import PureComt from './components/PureComt';
+import ParentComp from './components/ParentComp';
+import RefsDemo from './components/RefsDemo';
+import ParentRef from './components/ParentRef';
+import RFParent from './components/RFParent';
+import PortalDemo from './components/PortalDemo';
+import ErrorHandleExample from './components/ErrorHandleExample';
+import ErrorHandling from './components/ErrorHandling';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Greet id="jashwanth">reddy</Greet>
+      <Counter /> */}
+      {/* <Welcome name="sohail">whats up</Welcome>
+      <Message />
+      <Counter />
+      <Destructure id="jashwanth" children="ramesh"/> */}
+      {/* <Functionclick></Functionclick > */}
+      {/* <ClassClick />
+      <Eventbind />
+      <ParentComponent></ParentComponent> */}
+      {/* <UserGreeting></UserGreeting> */}
+      {/* <NameList></NameList> */}
+      {/* <StyleSheet></StyleSheet >
+      <FormHandling></FormHandling>
+      <LifeCycle></LifeCycle> */}
+      <Fragment></Fragment>
+      {/* <ParentComp></ParentComp> */}
+      {/* <RefsDemo></RefsDemo>
+      <ParentRef></ParentRef>
+      <RFParent></RFParent>
+      <PortalDemo></PortalDemo> */}
+      <ErrorHandling>
+      <ErrorHandleExample name={'jaswanth'}></ErrorHandleExample>
+      </ErrorHandling>
+      <ErrorHandling>
+      <ErrorHandleExample name={'reddyy'}></ErrorHandleExample>
+      </ErrorHandling>
+      <ClickCounter></ClickCounter>
+      <HoverCounter></HoverCounter>
     </div>
   );
 }

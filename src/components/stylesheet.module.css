@@ -1,0 +1,23 @@
+.success {
+    color: green;
+    margin-top:30px;
+    font-size: 30px;
+    width: 100%;
+    border-bottom: 2px solid blue;
+}
+
+.formHandling {
+    color: green;
+    border-bottom: 2px solid black;
+    padding: 50px;
+}
+.lifeCycle {
+    color: blue;
+    border-bottom: 2px solid black;
+    padding: 50px;
+}
+.purecomponent {
+    color: blue;
+    border-bottom: 2px solid black;
+    padding: 50px; 
+}
