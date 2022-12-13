@@ -25,6 +25,13 @@ import ErrorHandleExample from './components/ErrorHandleExample';
 import ErrorHandling from './components/ErrorHandling';
 import ClickCounter from './components/ClickCounter';
 import HoverCounter from './components/HoverCounter';
+import ClickCounter2 from './components/ClickCounter2';
+import HoverCounter2 from './components/HoverComponent';
+import RenderedProps from './components/RenderedProps';
+import RenderedPropsFunction from './components/RenderedPropsFunction';
+import ComponentA from './components/ComponentA';
+import { Provider } from './components/userContext';
+import ApiCall from './components/ApiCall';
 
 function App() {
   return (
@@ -58,6 +65,15 @@ function App() {
       </ErrorHandling>
       <ClickCounter></ClickCounter>
       <HoverCounter></HoverCounter>
+      {/* <ClickCounter2></ClickCounter2>
+      <HoverCounter2></HoverCounter2> */}
+      {/* <RenderedProps render = {(vallue) => vallue ? 'jashwanth' : 'reddy'}></RenderedProps>
+      <RenderedPropsFunction render = {(count, increment) => (<ClickCounter2 count={count} increment={increment}></ClickCounter2>)}></RenderedPropsFunction>
+      <RenderedPropsFunction render = {(count, increment) => (<HoverCounter2 count={count} increment={increment}></HoverCounter2>)}></RenderedPropsFunction>
+      <Provider value = {'jashwanth'}>
+      <ComponentA></ComponentA>
+      </Provider> */}
+      <ApiCall></ApiCall>
     </div>
   );
 }

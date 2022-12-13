@@ -1,4 +1,5 @@
 import React from 'react'
+import './StyleSheet.css'
 
 const updatedComponent = (OriginalComponent) => {
     class NewComponent extends React.Component {
@@ -15,7 +16,7 @@ const updatedComponent = (OriginalComponent) => {
               })
           }
         render() {
-            return <OriginalComponent name={'randy Orton'} increment = {this.increment} count = {this.state.count} {...this.props}/>
+            return <OriginalComponent className='third-class' name={'randy Orton'} increment = {this.increment} count = {this.state.count} {...this.props}/>
         }
     }
     return NewComponent
